@@ -46,19 +46,19 @@ function () {
 $(".header .nav-buttons i").click(function () {
   $("html, body").animate({
     scrollTop: $($(this).data('class')).offset().top
-  }, 500);
+  }, 1000);
 });
 
 $(".navbar .collapse .navbar-nav a").click(function () {
   $("html, body").animate({
     scrollTop: $($(this).data('class')).offset().top
-  });
+  }, 1000);
 });
 
 $(".header .fa-sort-down").click(function () {
   $('html, body').animate({
     scrollTop: $(".profile").offset().top
-  });
+  }, 1000);
 });
 
 
