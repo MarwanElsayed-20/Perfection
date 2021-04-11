@@ -188,7 +188,7 @@ body {
   }
 
   .header .carousel .carousel-inner .overlay {
-    background: rgb(0, 0, 0, .3);
+    background: rgb(0, 0, 0, .5);
   }
 
   .header .carousel .carousel-inner .brand h1 {
@@ -776,6 +776,12 @@ body {
 
 .footer span {
   color: rgb(51 18 0)
+}
+
+@media (max-width: 575.98px){
+  .social i {
+    margin-right: 5px !important;
+  }
 }
 
 @media (max-width: 991.98px) {

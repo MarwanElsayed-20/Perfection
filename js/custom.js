@@ -56,13 +56,13 @@ $(".header .nav-buttons i").click(function () {
 $(".navbar .collapse .navbar-nav a").click(function () {
   $("html, body").animate({
     scrollTop: $($(this).data('class')).offset().top
-  }, 1000);
+  }, 500);
 });
 
 $(".header .fa-sort-down").click(function () {
   $('html, body').animate({
     scrollTop: $(".profile").offset().top
-  }, 1000);
+  }, 500);
 });
 
 
