@@ -2,10 +2,10 @@ $(function() {
 
 // header height
 $(".carousel .carousel-inner").height($(window).height());
-$(".header .carousel .carousel-inner .carousel-item img").height($(window).height());
+$(".header .carousel .carousel-inner img").height($(window).height());
 $(window).resize(function () {
   $(".carousel .carousel-inner").height($(window).height()),
-  $(".header .carousel .carousel-inner .carousel-item img").height($(window).height());
+  $(".header .carousel .carousel-inner img").height($(window).height());
 });
 
 /*

@@ -77,11 +77,6 @@ body {
   box-shadow: 0px 5px 20px 4px black;
 }
 
-.header .carousel .carousel-inner .carousel-item img {
-  background: url("../images/header.png") no-repeat fixed center center;
-
-}
-
 .header .carousel .carousel-inner {
   position: relative;
 }
@@ -590,7 +585,7 @@ body {
 
 .footer {
   background: black;
-  padding: 10px;
+  padding: 10px 0;
   box-shadow: -1px -7px 20px 0px black;
 }
 
@@ -604,6 +599,10 @@ body {
     height: 45px!important;
     width: 45px !important;
     line-height: 45px !important;
+  }
+
+  .footer h6 {
+    font-size: .9rem !important;
   }
 }
 
