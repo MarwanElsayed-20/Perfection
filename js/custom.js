@@ -78,7 +78,7 @@ $(window).scroll(function () {
   if ($(window).scrollTop() >= 2390 && $(window).width() >= 992 ) {
     $(".up").fadeIn(500)
   } else {
-    $(".up").hide(500)
+    $(".up").hide()
   }
 });
 
