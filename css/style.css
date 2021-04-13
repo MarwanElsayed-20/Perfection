@@ -46,14 +46,6 @@ body {
     display: block;
     background: black;
     box-shadow: 0px 4px 20px 10px black;
-    z-index: 1
-  }
-
-  .navbar {
-    display: block;
-    background: black;
-    box-shadow: 0px 4px 20px 10px black;
-    z-index: 1
   }
 
   .navbar .navbar-brand img {
@@ -118,8 +110,8 @@ body {
   box-shadow: 0 0 15px 2px black
 }
 
-.header .carousel .carousel-inner .brand span {
-  font-size: 59.3px;
+.header .carousel .carousel-inner .brand .aka {
+  font-size: 73.3px;
   margin-left: 3px;
   text-shadow: #000000 0 0 15px;
   position: absolute;
@@ -161,8 +153,8 @@ body {
     font-size: 5.8rem !important
   }
 
-  .header .carousel .carousel-inner .brand span {
-    font-size: 1.8rem !important;
+  .header .carousel .carousel-inner .brand .aka {
+    font-size: 2.25rem !important;
   }
   .header .carousel .carousel-inner .brand h1::after {
     top: -15px;
@@ -201,8 +193,8 @@ body {
     font-size: 6rem;
   }
 
-  .header .carousel .carousel-inner .brand span {
-    font-size: 33.6px;
+  .header .carousel .carousel-inner .brand .aka {
+    font-size: 41.5px;
     margin-left: 1px;
     margin-top: -15px;
     position: inherit;
@@ -239,7 +231,7 @@ body {
     width: 76.5%
   }
 
-  .header .carousel .carousel-inner .brand span {
+  .header .carousel .carousel-inner .brand .aka {
     margin-top: -15px;
     position: inherit;
   }
@@ -261,6 +253,51 @@ body {
   .header .fa-sort-down:hover {
     text-shadow: rgb(221 204 170) 0 0 10px;
     color: rgb(51 18 0)
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .header .carousel .carousel-inner .brand h1 {
+    font-size: 9.15rem !important;
+  }
+  .header .carousel .carousel-inner .brand h1::after {
+    top: -10px;
+    width: 93.25%
+  }
+
+  .header .carousel .carousel-inner .brand h1  img {
+    display: inline-block !important;
+    height: 139px !important;
+    box-shadow: 0 0 15px 2px black;
+    width: 134px;
+    margin: 0 5px;
+    margin-top: -19px;
+    border: 3px solid rgb(221, 204, 170);
+    border-radius: 50%;
+    background: rgb(221, 204, 170);
+  }
+  .header .carousel .carousel-inner .brand h1 span {
+    display: none
+  }
+
+  .header .carousel .carousel-inner .brand span {
+    font-size: 70.8px !important;
+    margin-left: 1px !important;
+  }
+}
+@media (min-width: 1400px) {
+  .header .carousel .carousel-inner .brand h1 {
+    font-size: 9.6rem
+  }
+  .header .carousel .carousel-inner .brand h1  img {
+    display: inline-block !important;
+    height: 139px !important;
+    box-shadow: 0 0 15px 2px black;
+    width: 134px;
+    margin: 0 5px;
+    margin-top: -19px;
+    border: 3px solid rgb(221, 204, 170);
+    border-radius: 50%;
+    background: rgb(221, 204, 170);
   }
 }
 
@@ -614,6 +651,31 @@ body {
 
 /* end footer */
 
+.up {
+  background: rgb(221 204 170);
+  border: 3px solid rgb(221 204 170);
+  position: fixed;
+  height: 60px;
+  line-height: 60px;
+  width: 60px;
+  bottom: 110px;
+  right: 45px;
+  color: rgb(51 18 0);
+  font-size: 30px;
+  border: none;
+  z-index: 1;
+  display: none;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.up:hover {
+    background: rgb(51 18 0);
+    border: 3px solid rgb(221 204 170);
+    color: rgb(221 204 170)
+}
 
 
 
