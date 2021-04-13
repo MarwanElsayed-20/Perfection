@@ -65,6 +65,23 @@ $(".header .fa-sort-down").click(function () {
   }, 500);
 });
 
+// trigger up button
+
+
+$(".up").click(function () {
+  $("html,body").animate({
+    scrollTop: 0
+  })
+});
+
+$(window).scroll(function () {
+  if ($(window).scrollTop() >= 2390 && $(window).width() >= 992 ) {
+    $(".up").fadeIn(500)
+  } else {
+    $(".up").hide(500)
+  }
+});
+
 
 
 
